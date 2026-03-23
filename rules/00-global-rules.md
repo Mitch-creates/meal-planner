@@ -7,6 +7,8 @@ These rules apply to every agent, task, and deliverable.
 1. `plan/01-mvp-contract.md` is the canonical MVP scope.
 2. Any scope change must be written in the contract before implementation.
 3. If docs and code conflict, code is considered invalid until docs are reconciled.
+4. For external library/framework/tooling documentation, agents must use Context7 as the required reference source of truth.
+5. When implementation guidance conflicts between ad-hoc web sources and Context7 docs, Context7 guidance takes precedence unless explicitly overridden in repository docs.
 
 ## Change control
 

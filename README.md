@@ -5,7 +5,10 @@ This repository is planning-first. It contains the rules and product documents t
 ## Current status
 
 - Planning and guardrails are defined.
-- Implementation has not started.
+- Execution scaffold has started:
+  - `apps/mobile` (Expo + TypeScript foundation)
+  - `apps/api` (Hono + Drizzle-oriented backend foundation)
+  - `packages/shared` (shared domain contracts)
 - All development should follow the role-based rules in `rules/`.
 
 ## Agent roles
@@ -31,3 +34,8 @@ MVP is a React Native meal planner focused on:
 - Free plan with one-time weekly generation quota, plus subscription upgrades
 
 See `plan/01-mvp-contract.md` for the locked contract.
+
+## Temporary product identity
+
+- App name placeholder: `Project Placeholder`
+- Logo placeholder key: `logo-placeholder-square`
