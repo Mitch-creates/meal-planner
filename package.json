@@ -1,0 +1,18 @@
+{
+  "name": "meal-planner-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:mobile": "npm run dev --workspace @meal-planner/mobile",
+    "dev:api": "npm run dev --workspace @meal-planner/api",
+    "typecheck": "npm run typecheck --workspace @meal-planner/mobile && npm run typecheck --workspace @meal-planner/api && npm run typecheck --workspace @meal-planner/shared",
+    "test": "npm run test --workspace @meal-planner/api && npm run test --workspace @meal-planner/shared"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
